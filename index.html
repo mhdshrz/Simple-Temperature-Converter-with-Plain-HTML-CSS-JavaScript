@@ -16,6 +16,7 @@
 			<div class="temperature">
 				<label for="celsius">Celsius:</label>
 				<input
+					onchange="calculateTemperature(event)"
 					type="number"
 					name="celsius"
 					id="celsius"
@@ -26,6 +27,7 @@
 			<div class="temperature">
 				<label for="fahrenheit">Fahrenheit:</label>
 				<input
+					onchange="calculateTemperature(event)"
 					type="number"
 					name="fahrenheit"
 					id="fahrenheit"
@@ -36,6 +38,7 @@
 			<div class="temperature">
 				<label for="kelvin">Kelvin:</label>
 				<input
+					onchange="calculateTemperature(event)"
 					type="number"
 					name="kelvin"
 					id="kelvin"
@@ -44,5 +47,6 @@
 				/>
 			</div>
 		</main>
+		<script src="index.js"></script>
 	</body>
 </html>
